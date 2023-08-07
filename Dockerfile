@@ -13,7 +13,7 @@ COPY ./package.json .
 
 ENV DOCKER_ENV=true
 
-ENV SERVER_URL=http://localhost:8080
+ENV SERVER_URL=http://localhost:3005
 
 ENV CORS_ORIGIN=*
 ENV CORS_METHODS=POST,GET,PUT,DELETE
